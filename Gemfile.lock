@@ -253,11 +253,12 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bundler
   classifier-reborn
   css_parser
   feedjira
   httparty
-  jekyll
+  jekyll (~> 4.3.2)
   jekyll-archives
   jekyll-email-protect
   jekyll-feed
