@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /software/
+title: Software
+description: Here you can find the softwares I maintain for astronomy data reduction and analysis. Click on the repositories to explore. 
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
 {% if site.data.repositories.github_users %}

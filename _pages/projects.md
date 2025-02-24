@@ -1,13 +1,24 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research
+permalink: /research/
+description: Unveiling the Dynamics of Galaxies - Gas Flows, Star Formation, and the Cosmic Ecosystem
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 2
+display_categories: [List of Projects, ADS Word Cloud]
+horizontal: true
 ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="https://www.annualreviews.org/docserver/fulltext/astro/55/1/aa550389.f1.gif" title="The cosmic baryon cycle from Tumlinson et al., 2017" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+I have a broad interest in the formation and evolution of galaxies in our Universe. Particularly, I am interested
+in the "cosmic baryon cycle"--how baryonic matter moves through galaxies and intergalactic space. In this cycle, gas falls into galaxies from the intergalactic medium, fueling star formation. In turn, stars and supernovae eject gas back into the intergalactic medium through stellar winds and feedback. Some gas cools and falls back, continuing the cycle. This process intrinsically regulates galaxy growth and evolution and shapes what our current Universe looks like.
+
+Below lists some important projects that I am working on. 
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -62,4 +73,10 @@ horizontal: false
   </div>
   {% endif %}
 {% endif %}
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/concept_cloud.png" title="concept cloud" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
